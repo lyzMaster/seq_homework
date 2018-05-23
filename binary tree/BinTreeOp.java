@@ -4,18 +4,23 @@ import java.util.Scanner;
 
 public class BinTreeOp implements TreeInterface {
     Scanner cin = new Scanner(System.in);
+
     @Override
-    public BinTree CreateBinTree(BinTree T) {
-        BinTree current = new BinTree();
-        BinTree root = new BinTree();
-        current = root = null;
-        int i=0;
-        for (;;){
-            i++;
-            Object n = cin.next();
-            current.lchild()
+    public BinTree CreateBinTree(BinTree T) {  //经典递归
+        if (T==null){
+            T = new BinTree();
         }
-        return null;
+        Object x = cin.next();
+        if (x.equals("#")){
+            T = null;
+            System.out.println(x.equals('#'));
+        }
+        else {
+            T.data = x;
+            CreateBinTree(T.lchild);
+            CreateBinTree(T.rchild);
+        }
+        return T;
     }
 
     @Override
