@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lyz/CLionProjects/chain/Chain.h
+Node.h
+/Users/lyz/CLionProjects/chain/Node.h
+
+/Users/lyz/CLionProjects/chain/LinkStack.cpp
+LinkStack.h
+/Users/lyz/CLionProjects/chain/LinkStack.h
+iostream
+-
+
+/Users/lyz/CLionProjects/chain/LinkStack.h
+Node.h
+/Users/lyz/CLionProjects/chain/Node.h
+
+/Users/lyz/CLionProjects/chain/Node.cpp
+iostream
+-
+Node.h
+/Users/lyz/CLionProjects/chain/Node.h
+
+/Users/lyz/CLionProjects/chain/Node.h
+
+/Users/lyz/CLionProjects/chain/chain.cpp
+Chain.h
+/Users/lyz/CLionProjects/chain/Chain.h
+iostream
+-
+
+/Users/lyz/CLionProjects/chain/main.cpp
+iostream
+-
+cmath
+-
+Chain.h
+/Users/lyz/CLionProjects/chain/Chain.h
+LinkStack.h
+/Users/lyz/CLionProjects/chain/LinkStack.h
+

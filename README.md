@@ -1,2 +1,3 @@
-# seq_homework
-just for homework
+# 部分数据结构实现
+
+## C++ 和 java 实现

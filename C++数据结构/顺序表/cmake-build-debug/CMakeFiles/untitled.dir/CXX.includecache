@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/lyz/CLionProjects/untitled/Seq.h
+
+/Users/lyz/CLionProjects/untitled/SeqOps.cpp
+iostream
+-
+Seq.h
+/Users/lyz/CLionProjects/untitled/Seq.h
+
+/Users/lyz/CLionProjects/untitled/main.cpp
+iostream
+-
+Seq.h
+/Users/lyz/CLionProjects/untitled/Seq.h
+

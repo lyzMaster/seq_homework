@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/chain.dir/main.cpp.o CMakeFiles/chain.dir/Node.cpp.o CMakeFiles/chain.dir/chain.cpp.o CMakeFiles/chain.dir/LinkStack.cpp.o  -o chain 
